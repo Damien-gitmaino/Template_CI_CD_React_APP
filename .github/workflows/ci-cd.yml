@@ -31,6 +31,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
             ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            BRANCH: deploy
+            BRANCH: main
             FOLDER: build
             CLEAN: true
